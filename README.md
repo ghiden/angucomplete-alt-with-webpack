@@ -1,6 +1,7 @@
 # Webpack and Angucomplete-alt
 
-This is a very minimum set up for angucomplete-alt with webpack.
+This is a very minimum set up for angucomplete-alt with webpack following this blog post by Shawn McKay:
+http://www.shmck.com/webpack-angular-part-1/ 
 
 ```bash
 .
