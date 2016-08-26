@@ -1,0 +1,19 @@
+{
+  "name": "angucomplete-alt-with-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/.bin/webpack-dev-server --content-base app/ --hot"
+  },
+  "author": "ghiden",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.0"
+  },
+  "dependencies": {
+    "angucomplete-alt": "^2.4.1",
+    "angular": "^1.5.8"
+  }
+}

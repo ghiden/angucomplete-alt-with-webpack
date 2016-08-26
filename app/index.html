@@ -1,0 +1,19 @@
+<!doctype html>  
+<html lang="en">  
+  <head>  
+    <meta charset="UTF-8">
+    <title>Webpack & angucomplete-alt</title>
+  </head>  
+  <body ng-controller="MainController">  
+    <div class="padded-row">
+      <div angucomplete-alt id="ex1" placeholder="Search countries" maxlength="50" pause="100" selected-object="selectedCountry" local-data="countries" search-fields="name" title-field="name" minlength="1" input-class="form-control form-control-small" match-class="highlight">
+      </div>
+    </div>
+    <div class="result">
+      <div ng-show="selectedCountry">
+        You selected <span class="bold-span">{{selectedCountry.originalObject.name}}</span> which has a country code of <span class="bold-span">{{selectedCountry.originalObject.code}}</span>
+      </div>
+    </div>
+    <script src="bundle.js"></script>  
+  </body>  
+</html>  
